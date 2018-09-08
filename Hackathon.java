@@ -40,7 +40,6 @@ public class apples
             }
             str_f=str_f+c;
         }
-        JOptionPane.showMessageDialog(null, "Encrypted Code is : " + str_f, "the title", JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showMessageDialog(null, "Your Pin is : " + ran, "the title", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Encrypted Code is : " + str_f + "\n Your pin is : " + ran, "the title", JOptionPane.PLAIN_MESSAGE);
     }
 }
